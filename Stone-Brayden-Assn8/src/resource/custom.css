@@ -1,0 +1,31 @@
+
+.button {
+    -fx-background-color: lightgray;
+    -fx-border-color: black;
+    -fx-border-radius: 0;
+    -fx-border-width: .5;
+}
+
+.button:hover {
+    -fx-background-color: grey;
+}
+
+.button:disabled
+{
+    -fx-background-color: beige;
+}
+
+#bomb:disabled
+{
+    -fx-background-color: red;
+}
+
+#marked:disabled
+{
+    -fx-background-color: green;
+}
+
+#falseMarked
+{
+    -fx-background-color: yellow;
+}
